@@ -25,7 +25,7 @@ Page({
          shidu:res.data.data.datastreams[0].datapoints[0].value, //这里的shidu要跟wxml{{shidu}} 名字相同
          wendu:res.data.data.datastreams[3].datapoints[0].value,
          guangzhao:res.data.data.datastreams[1].datapoints[0].value,
-         people:1,
+         people:res.data.data.datastreams[4].datapoints[0].value,
        })    
       }
     })
