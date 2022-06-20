@@ -1,0 +1,41 @@
+page {
+  background: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+
+.headTitle .selctItem{
+  color: #000000;
+  font-weight: bold;
+}
+.itemView{
+  width: 100%;
+  height:180rpx;
+  position: relative;
+  border-bottom: 1px solid #F3F3F3;
+}
+
+.login-btn{
+  width: 40%!important;
+  background-color: #33ff33;
+  color: white;
+  font-weight: normal;
+}
+.content{
+  margin-top: 20rpx;
+  border:1px solid#ebe4e286;
+  width:750rpx;
+  height: 600rpx;
+  border-radius: 5px;
+  font-size: 36;
+  font-weight: bold;
+  line-height: 80rpx;
+  color: #e05b32;
+  text-align: center;
+  flex-direction: column;
+  display: flex;
+ 
+}
+
